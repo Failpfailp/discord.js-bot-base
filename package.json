@@ -1,0 +1,24 @@
+{
+  "//1": "describes your app and its dependencies",
+  "name": "name here",
+  "version": "0.0.1",
+  "description": "A discord bot!",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/flamableassassin/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
