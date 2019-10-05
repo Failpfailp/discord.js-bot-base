@@ -2,7 +2,7 @@ const fs = require('fs');
 const {loaders,watchers,config} = require('./src/index.js');
 const Discord = require('discord.js');
 
-if (config.dev_mode)var token = config.token.dev;
+if (config.dev_mode) var token = config.token.dev;
 else var token = config.token.james;
 
 console.log(`Dev Mode: ${config.dev_mode}`);
