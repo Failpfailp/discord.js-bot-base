@@ -6,12 +6,12 @@ module.exports=function (client) {
      folder_name:  fs.readdirSync('./src/commands/folder_name').filter(file => file.endsWith('.js'))
   }
   //--adding commands--//
-  var keys = Object.keys(commandFiles)
-  for (var i = 0; i < keys.length; i++) {
-    var commands=commandFiles[keys[i]]
-    for (var l = 0; l < commands.length; l++) {
-      const command = require(`../commands/${keys[i]}/${commands[l]}`);
+  for (const key of keys) {
+   let commands = commandFiles[key];
+
+   for (const commandName of commands) {
+      let command = require(`../commands/${key}/${commandName}`);
       client.commands.set(command.name, command);
-    }
+   }
   }
 }
