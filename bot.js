@@ -3,7 +3,7 @@ const {loaders,watchers,config} = require('./src/index.js');
 const Discord = require('discord.js');
 
 if (config.dev_mode) var token = config.token.dev;
-else var token = config.token.james;
+else var token = config.token.main;
 
 console.log(`Dev Mode: ${config.dev_mode}`);
 const client = new Discord.Client();
