@@ -6,7 +6,7 @@ module.exports = {
     chewey_token:"TOKENS_GOES_HERE",
     dev_mode :true,
     token:{
-      james:"TOKENS_GOES_HERE",
+      main:"TOKENS_GOES_HERE",
       dev:"TOKENS_GOES_HERE",
     }
   },
