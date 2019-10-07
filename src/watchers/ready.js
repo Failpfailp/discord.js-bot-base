@@ -14,7 +14,7 @@ module.exports=function (client,config) {
       .setDescription("Guild count: "+client.guilds.size+"\nUser count: "+client.users.size+"\nChannel count: "+client.channels.size+"\nDev Mode: "+config.dev_mode)
       .setTimestamp()
       .setColor("88ff59")
-      client.channels.get("YOR_LOG_CHANNEL_HERE").send(embed)
+      client.channels.get("YOUR_LOG_CHANNEL_HERE").send(embed)
     }
   });
 }
