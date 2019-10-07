@@ -1,6 +1,6 @@
 # Discord.js-bot-base
  The discord.js base to my bot
-### This code has only recently updated to look like this so thinking will change!
+### This code has only recently updated to look like this. So things will change!
 
 ## You will have to edit:
 - /src/index.js
