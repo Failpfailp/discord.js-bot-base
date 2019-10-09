@@ -4,7 +4,5 @@
 
 ## You will have to edit:
 - /src/index.js
-- /src/watchers/command.js - line 49
 - /src/loaders/command-loader.js
 - /src/watchers/ready.js - line 17
-- 
