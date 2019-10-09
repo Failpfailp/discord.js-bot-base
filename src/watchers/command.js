@@ -46,7 +46,7 @@ module.exports =function (client,config) {
   	if (command.dbl && message.author.id!=config.owner_id) {
   		dbl.hasVoted(message.author.id).then(voted => {
   			if (!voted){
-  				message.reply(`Sorry but you need to vote for me on discordbots.org to use: \`${command.name}\`\nhttps://discordbots.org/bot/_YOUR_BOT_ID_HERE/vote`)
+  				message.reply(`Sorry but you need to vote for me on discordbots.org to use: \`${command.name}\`\nhttps://discordbots.org/bot/${client.user.id}/vote`)
   				return ;
   			}
   		});
