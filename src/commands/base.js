@@ -8,6 +8,7 @@ module.exports = {
   aliases: ['aliases'],//other ways of calling the command
   disabled: false,//if it is disabled for bug and so on
   reason: "reason here!",//if so what is the reason if there isn't one just delete it
+  guildOnly:false, //if the command needs to be used in a guild text channel 
   developer: false,//developer only command
 	nsfw: false,//if the command needs to be used in a NSFW channel
   dbl: false,//if the author needs to have voted on dbl
