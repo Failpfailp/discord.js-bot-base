@@ -23,7 +23,5 @@ if (!config.dev_mode) {
   });
   app.listen(process.env.PORT);
 }
-
-
 //----------------//
 client.login(token);
